@@ -110,9 +110,6 @@
 .title__name {
   text-shadow: 4px 4px 0px var(--color-shadow);
   align-self: center;
-}
-
-.title__name {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   color: var(--color-title);
   line-height: 82.5%;
@@ -204,7 +201,7 @@
   height: 100vh;
   padding: 10px;
   margin-top: 30px;
-  min-width: 668px;
+  min-height: 668px;
 }
 
 .footer.decorated-zone::after {
@@ -369,7 +366,7 @@
   .question_two {
     grid-column: 1/ span 3;
     max-width: 315px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     margin-top: 60px;
   }
 

@@ -3,8 +3,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #000028;
-  color: var(--text-color, #F1B2CE);
+  background-color: var(--text-color-hagging);
+  color: var(--text-color);
   font-family: var(--main-font, monospace);
   font-size: 18px;
   max-width: 1440px;
@@ -26,8 +26,8 @@
   align-self: flex-start;
   width: 25px;
   height: 25px;
-  border-top: 1px solid #FF0070;
-  border-right: 1px solid #FF0070;
+  border-top: 1px solid var(--text-accent);
+  border-right: 1px solid var(--text-accent);
 }
 
 .decorated-zone::after {
@@ -35,8 +35,8 @@
   display: block;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid #FF0070;
-  border-left: 1px solid #FF0070;
+  border-bottom: 1px solid var(--text-accent);
+  border-left: 1px solid var(--text-accent);
   justify-self: left;
   align-self: center;
 }
@@ -49,7 +49,7 @@
 
 .decoration_element::before {
   content: 'REC';
-  color: var(--text-accent, #FF0070);
+  color: var(--text-accent);
   margin-right: 10px;
   width: 33px;
   height: 26px;
@@ -81,7 +81,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--text-accent,#FF0070);
+  color: var(--text-accent);
   text-align: center;
   font-family: var(--main-font, monospace);
   font-size: 18px;
@@ -116,8 +116,8 @@
 }
 
 .header__text-container {
-  background-color: var(--bg-color, #FF0070);
-  color: var(--text-color-hagging, #000028);
+  background-color: var(--bg-color);
+  color: var(--text-color-hagging);
   line-height: 130%;
   font-weight: 700;
   font-size: 18px;
@@ -131,8 +131,8 @@
 }
 
 .hadding_title_text {
-  background-color: var(--bg-color, #FF0070);
-  color: var(--text-color-hagging, #000028);
+  background-color: var(--bg-color);
+  color: var(--text-color-hagging);
   line-height: 130%;
   font-weight: 700;
   font-size: 18px;
@@ -178,6 +178,7 @@
   font-size: 18px;
   line-height: 130%;
   margin-top: 20px;
+  font-weight: 400;
 }
 
 .last_main_text {

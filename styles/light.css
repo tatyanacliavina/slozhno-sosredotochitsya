@@ -24,6 +24,7 @@
 
 .page.theme_light {
   background-image: url('../images/cover-image-light.png');
+  background-color: #353430;
 }
 
 .theme_light .decoration_element {
